@@ -164,19 +164,9 @@
     margin-bottom: 16px;
   }
   .metric-name { font-size: 14px; font-weight: 500; margin-bottom: 4px; }
-  .metric-desc {
-    font-size: 12px;
-    color: var(--text-dim);
-    margin-bottom: 16px;
-    font-style: italic;
-  }
+  .metric-desc { font-size: 12px; color: var(--text-dim); margin-bottom: 16px; font-style: italic; }
 
-  .scale-row {
-    display: flex;
-    gap: 6px;
-    align-items: center;
-    justify-content: space-between;
-  }
+  .scale-row { display: flex; gap: 6px; align-items: center; justify-content: space-between; }
   .scale-btn {
     flex: 1;
     height: 36px;
@@ -201,13 +191,7 @@
     color: var(--accent2);
     font-weight: 500;
   }
-  .scale-labels {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 6px;
-    font-size: 11px;
-    color: var(--text-muted);
-  }
+  .scale-labels { display: flex; justify-content: space-between; margin-top: 6px; font-size: 11px; color: var(--text-muted); }
 
   .note-area {
     background: var(--surface);
@@ -242,11 +226,7 @@
     cursor: pointer;
     transition: all 0.15s;
   }
-  .chip.selected {
-    background: var(--accent-dim);
-    border-color: var(--accent);
-    color: var(--accent);
-  }
+  .chip.selected { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); }
 
   .save-btn {
     width: 100%;
@@ -262,73 +242,30 @@
     transition: opacity 0.15s;
   }
   .save-btn:hover { opacity: 0.85; }
-  .saved-msg {
-    text-align: center;
-    font-size: 13px;
-    color: var(--on);
-    margin-top: 10px;
-    height: 20px;
-    font-family: 'DM Mono', monospace;
-  }
+  .saved-msg { text-align: center; font-size: 13px; color: var(--on); margin-top: 10px; height: 20px; font-family: 'DM Mono', monospace; }
 
+  .progress-header { margin-bottom: 28px; }
   .progress-title { font-size: 20px; font-weight: 300; letter-spacing: -0.01em; margin-bottom: 4px; }
   .progress-sub { font-size: 13px; color: var(--text-dim); font-family: 'DM Mono', monospace; }
 
   .stat-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 24px; }
-  .stat-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 16px;
-  }
-  .stat-label {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    margin-bottom: 8px;
-  }
+  .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; }
+  .stat-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 8px; }
   .stat-val { font-size: 28px; font-weight: 300; letter-spacing: -0.02em; }
   .stat-val span { font-size: 13px; color: var(--text-dim); font-weight: 400; }
   .stat-delta { font-size: 12px; margin-top: 4px; font-family: 'DM Mono', monospace; }
   .delta-up { color: var(--on); }
   .delta-down { color: #f87171; }
 
-  .chart-block {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 18px;
-    margin-bottom: 16px;
-  }
-  .chart-title {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    margin-bottom: 16px;
-  }
+  .chart-block { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; margin-bottom: 16px; }
+  .chart-title { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 16px; }
   canvas { width: 100% !important; }
 
   .log-list { display: flex; flex-direction: column; gap: 10px; }
-  .log-item {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 14px 16px;
-  }
+  .log-item { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; }
   .log-item-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
   .log-item-date { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text-dim); }
-  .log-item-tappi {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    padding: 2px 8px;
-    border-radius: 20px;
-    background: var(--on-dim);
-    color: var(--on);
-  }
+  .log-item-tappi { font-family: 'DM Mono', monospace; font-size: 10px; padding: 2px 8px; border-radius: 20px; background: var(--on-dim); color: var(--on); }
   .log-item-tappi.no { background: var(--surface2); color: var(--text-muted); }
   .log-item-scores { display: flex; gap: 16px; font-size: 13px; color: var(--text-dim); font-family: 'DM Mono', monospace; }
   .log-item-note { margin-top: 8px; font-size: 13px; color: var(--text-dim); font-style: italic; border-top: 1px solid var(--border); padding-top: 8px; }
@@ -343,18 +280,9 @@
   .corr-on { color: var(--on); }
   .corr-off { color: var(--text-muted); }
 
-  .insight {
-    background: var(--accent-dim);
-    border: 1px solid rgba(91,142,240,0.25);
-    border-radius: var(--radius);
-    padding: 14px 16px;
-    margin-bottom: 16px;
-    font-size: 13px;
-    line-height: 1.6;
-  }
+  .insight { background: var(--accent-dim); border: 1px solid rgba(91,142,240,0.25); border-radius: var(--radius); padding: 14px 16px; margin-bottom: 16px; font-size: 13px; line-height: 1.6; }
   .insight strong { color: var(--accent); font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; display: block; margin-bottom: 4px; }
   .empty-state { text-align: center; padding: 48px 0; color: var(--text-muted); font-size: 14px; font-style: italic; }
-  .progress-header { margin-bottom: 28px; }
 </style>
 </head>
 <body>
@@ -394,7 +322,7 @@
     <div class="scale-labels"><span>calmo</span><span>molto attivato</span></div>
   </div>
   <p class="section-title">Contesto</p>
-  <div class="chips" id="context-chips">
+  <div class="chips">
     <button class="chip" data-ctx="casa rumorosa" onclick="toggleChip(this)">casa rumorosa</button>
     <button class="chip" data-ctx="lavoro" onclick="toggleChip(this)">lavoro / scrittura</button>
     <button class="chip" data-ctx="telefonate" onclick="toggleChip(this)">telefonate</button>
@@ -444,10 +372,10 @@ const STORAGE_KEY = 'loops_experiment_v1';
 let state = { tappiOn: false, focusVal: null, stressVal: null, chips: [] };
 let data = {};
 
-async function init() {
+function init() {
   try {
-    const saved = await window.storage.get(STORAGE_KEY);
-    if (saved) data = JSON.parse(saved.value);
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) data = JSON.parse(saved);
   } catch(e) { data = {}; }
   const today = todayKey();
   if (data[today]) {
@@ -504,7 +432,7 @@ function toggleChip(el) {
 }
 function renderChips() { document.querySelectorAll('.chip').forEach(chip => { chip.classList.toggle('selected', state.chips.includes(chip.dataset.ctx)); }); }
 
-async function saveEntry() {
+function saveEntry() {
   if (state.focusVal === null || state.stressVal === null) {
     const msg = document.getElementById('saved-msg');
     msg.style.color = 'var(--warn)';
@@ -514,7 +442,7 @@ async function saveEntry() {
   const today = todayKey();
   data[today] = { tappi: state.tappiOn, focus: state.focusVal, stress: state.stressVal, chips: [...state.chips], note: document.getElementById('entry-note').value.trim(), ts: new Date().toISOString() };
   try {
-    await window.storage.set(STORAGE_KEY, JSON.stringify(data));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
     const msg = document.getElementById('saved-msg');
     msg.style.color = 'var(--on)';
     msg.textContent = '✓ salvato';
@@ -605,4 +533,3 @@ if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.s
 </script>
 </body>
 </html>
-
